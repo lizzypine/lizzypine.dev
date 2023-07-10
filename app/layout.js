@@ -1,17 +1,14 @@
-import "./globals.css";
-import { Inter } from "next/font/google";
-
-const inter = Inter({ subsets: ["latin"] });
+import '../styles/globals.css'
 
 export const metadata = {
   title: "Lizzy Pine | Software Developer",
   description: "Lizzy Pine Portfolio Site",
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({children}) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body>{children}</body>
     </html>
-  );
+  )
 }
