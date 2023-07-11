@@ -2,13 +2,12 @@ import Header from "./components/Header.js"
 import Card from "./components/Card.js"
 import Footer from "./components/Footer.js"
 
-// export default function Page() {
-export default function Home() {
+export default function Page() {
   return (
     <main className="flex min-h-screen flex-col items-center">
       <Header />
       <section id="work">
-        <div className="grid text-center lg:mb-2 lg:grid-cols-2 lg:text-left">
+        <h2 className="text-3xl text-center font-bold tracking-tight text-gray-900 sm:text-4xl">Featured Work</h2>
           <Card 
             title="Kona Swim Hub" 
             imgSrc=""
@@ -41,7 +40,6 @@ export default function Home() {
             liveLink="https://build.kuleanacollege.com"
             repoLink="https://github.com/lizzypine/kuleana-college" 
           />
-        </div>
       </section>
     <Footer />
     </main>
