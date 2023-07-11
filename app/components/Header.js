@@ -80,25 +80,27 @@ export default function Header() {
           <div className="mt-6 flex items-center justify-center gap-x-6">
             <motion.div
               initial={{ x: -100, opacity: 0 }}
-              animate={{ x: 0, opacity: 1 }}
-              transition={{ delay: 1.8 }}
+              animate={{ x: 0, opacity: 1, transition: { delay: 1.8 } }}
               whileHover={{
-                rotateZ: [0, -20, 20, -20, 20, -20, 20, 0],
-                transition: { duration: 0.5 },
-              }}>
-              <a href="https://github.com/lizzypine" target="_blank" rel="noopener noreferrer">
+                scale: 1.2,
+                transition: 0.2
+              }}
+              whileTap={{ scale: 0.8 }}
+            >
+              <a href="https://github.com/lizzypine" className="social-link" target="_blank" rel="noopener noreferrer">
                 <AiFillGithub size="2.5em" />
               </a>
             </motion.div>
             <motion.div
               initial={{ x: 200, opacity: 0 }}
-              animate={{ x: 0, opacity: 1 }}
-              transition={{ delay: 1.8 }}
+              animate={{ x: 0, opacity: 1, transition: { delay: 1.8 } }}
               whileHover={{
-                rotateZ: [0, -20, 20, -20, 20, -20, 20, 0],
-                transition: { duration: 0.5 },
-              }}>
-              <a href="https://www.linkedin.com/in/lizzypine/" target="_blank" rel="noopener noreferrer">
+                scale: 1.2,
+                transition: 0.2
+              }}
+              whileTap={{ scale: 0.8 }}
+            >
+              <a href="https://www.linkedin.com/in/lizzypine/" className="social-link" target="_blank" rel="noopener noreferrer">
                 <AiFillLinkedin size="2.5em" />
               </a>
             </motion.div>

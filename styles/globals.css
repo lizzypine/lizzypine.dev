@@ -25,3 +25,11 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.social-link:hover {
+  color: fuchsia;
+}
+
+.button-link:hover {
+  color: yellow;
+}
