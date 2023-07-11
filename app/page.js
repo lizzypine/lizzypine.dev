@@ -1,3 +1,5 @@
+// import { useEffect } from 'react'
+// import { motion } from "framer-motion"
 import Header from "./components/Header.js"
 import Card from "./components/Card.js"
 import Footer from "./components/Footer.js"
@@ -7,6 +9,7 @@ import predictABuyPic from "../public/predict-a-buy.png"
 import kaiDentalPic from "../public/kai-dental.png"
 
 export default function Page() {
+
   return (
     <main className="flex min-h-screen flex-col items-center">
       <Header />
