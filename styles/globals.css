@@ -43,29 +43,25 @@ p {
 }
 
 .btn {
-  background-color: #0A4C86;
-}
-
-.btn:hover {
   background-color: #1D3B58;
 }
 
-/* @media (prefers-color-scheme: dark) { 
+.btn:hover {
+  background-color: #0A4C86;
+}
+
+@media (prefers-color-scheme: dark) { 
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 158, 222, 198;
   }
 
-  h1, h2 {
+  /* h1, h2 {
     color: white;
-  }
-
-  h3, h4, h5, h6 {
-    color: whitesmoke;
   }
 
   p {
     color: whitesmoke;
-  }
-} */
+  } */
+}

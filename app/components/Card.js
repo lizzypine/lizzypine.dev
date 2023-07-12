@@ -23,11 +23,11 @@ export default function Card(props) {
       <div className="p-8">
         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">{props.title}</h5>
         <p className="mb-3 font-normal dark:text-gray-900">{props.body}</p>
-        <h6 className="mb-3 font-bold">Technologies: {props.technologies}</h6>
+        <h6 className="mb-3 font-bold dark:text-gray-900">Technologies: {props.technologies}</h6>
         <div className="flex mt-4 space-x-3 md:mt-6">
           <motion.a 
             href={props.liveLink} 
-            className="btn button-link inline-flex font-bold items-center px-3 py-2 text-sm text-center text-white bg-blue-700 rounded-lg focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:focus:ring-blue-800"
+            className="btn button-link inline-flex font-bold items-center px-3 py-2 text-sm text-center text-white bg-blue-700 rounded-lg focus:ring-4 focus:outline-none focus:ring-blue-300"
             whileHover={{
               scale: 1.1,
             }}
@@ -37,7 +37,7 @@ export default function Card(props) {
           </motion.a>
           <motion.a 
             href={props.repoLink} 
-            className="btn button-link inline-flex font-bold items-center px-3 py-2 text-sm text-center text-white bg-blue-700 rounded-lg focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:focus:ring-blue-800"
+            className="btn button-link inline-flex font-bold items-center px-3 py-2 text-sm text-center text-white bg-blue-700 rounded-lg focus:ring-4 focus:outline-none focus:ring-blue-300"
             whileHover={{
               scale: 1.1,
             }}
