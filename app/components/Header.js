@@ -12,8 +12,8 @@ export default function Header() {
     visible: {
       opacity: 1, 
       transition: {
-        delay: 0.5,
-        staggerChildren: 0.08,
+        delay: 0.4,
+        staggerChildren: 0.07,
       },
     },
   }
@@ -49,7 +49,7 @@ export default function Header() {
     <header className="banner h-screen flex items-center justify-center">
         <div className="text-center">
           <motion.h1 
-            className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl load-screen--message"
+            className="text-4xl tracking-tight sm:text-6xl load-screen--message"
             variants={sentence}
             initial="hidden"
             animate="visible"
@@ -63,7 +63,7 @@ export default function Header() {
             })} 
           </motion.h1>
           <motion.p 
-            className="mt-6 text-lg leading-8 text-gray-600"
+            className="mt-6 text-lg leading-8"
             variants={sentence2}
             transition={{ delay: 1.5 }}
             initial="hidden"

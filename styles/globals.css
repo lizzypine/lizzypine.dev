@@ -4,16 +4,8 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+  --background-start-rgb: 255, 255, 255;
+  --background-end-rgb: 158, 222, 198;
 }
 
 body {
@@ -26,10 +18,54 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-.social-link:hover {
-  color: fuchsia;
+h1, h2 {
+  color: text-gray-900;
+  font-family: var(--font-montserrat);
 }
 
-.button-link:hover {
-  color: yellow;
+/* h3, h4, h5, h6 {
+  color: text-gray-700;
+  font-family: var(--font-open-sans);
+} */
+
+h6 {
+  font-family: var(--font-open-sans);
 }
+
+p {
+  color: text-gray-600;
+  font-family: var(--font-open-sans);
+}
+
+.social-link:hover {
+  /* color: #ea3786; */
+  color: #1D3B58
+}
+
+.btn {
+  background-color: #0A4C86;
+}
+
+.btn:hover {
+  background-color: #1D3B58;
+}
+
+/* @media (prefers-color-scheme: dark) { 
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 158, 222, 198;
+  }
+
+  h1, h2 {
+    color: white;
+  }
+
+  h3, h4, h5, h6 {
+    color: whitesmoke;
+  }
+
+  p {
+    color: whitesmoke;
+  }
+} */

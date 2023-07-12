@@ -1,6 +1,5 @@
-// import { useEffect } from 'react'
-// import { motion } from "framer-motion"
 import Header from "./components/Header.js"
+import Heading from "./components/Heading.js"
 import Card from "./components/Card.js"
 import Footer from "./components/Footer.js"
 import konaSwimHubPic from "../public/kona-swim-hub.png"
@@ -9,12 +8,11 @@ import predictABuyPic from "../public/predict-a-buy.png"
 import kaiDentalPic from "../public/kai-dental.png"
 
 export default function Page() {
-
   return (
     <main className="flex min-h-screen flex-col items-center">
       <Header />
       <section id="work">
-        <h2 className="text-3xl text-center font-bold tracking-tight text-gray-900 sm:text-4xl">Featured Work</h2>
+        <Heading heading="Featured Work" />
         <div className="mt-8">
           <Card 
             title="Kona Swim Hub" 
@@ -38,7 +36,7 @@ export default function Page() {
             title="Predict-a-Buy" 
             imgSrc={predictABuyPic}
             imgAlt="Screenshot of Predict-a-Buy smart shopping list"
-            body="Smart shopping list web application that learns users' buying habits and recommends items on their future shopping trips.- Worked on a remote agile team with three other developers and collaborated on GitHub. Wrote code reviews, submitted pull requests, and pair programmed."
+            body="Smart shopping list web application that learns users' buying habits and recommends items on their future shopping trips. Worked on a remote agile team with three other developers and collaborated on GitHub. Wrote code reviews, submitted pull requests, and pair programmed."
             technologies="React.js, Firebase, Sass"
             liveLink="https://tcl-61-smart-shopping-list.web.app/list"
             repoLink="https://github.com/lizzypine/predict-a-buy" 
