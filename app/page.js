@@ -19,7 +19,7 @@ export default function Page() {
             imgSrc={konaSwimHubPic}
             imgAlt="Screenshot of Konaswimhub.com homepage"
             body="Swim class management software. Designed and built a scheduling system for swim instructors to create and manage their swim class rosters and waitlists and for families to find available swim classes. Developed event-based notification system that allows messaging. Wrote automated tests to validate template rendering, form validation, and database interactions."
-            technologies="Python, Django, JavaScript, Heroku, and PostgreSQL"
+            technologies="Python/Django, JavaScript, Bootstrap, SendGrid, PostgreSQL, deployed to AWS"
             liveLink="https://konaswimhub.com"
             repoLink="https://github.com/lizzypine/kona-swim-hub" 
           />
