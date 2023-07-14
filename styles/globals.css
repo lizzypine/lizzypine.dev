@@ -23,11 +23,6 @@ h1, h2 {
   font-family: var(--font-montserrat);
 }
 
-/* h3, h4, h5, h6 {
-  color: text-gray-700;
-  font-family: var(--font-open-sans);
-} */
-
 h6 {
   font-family: var(--font-open-sans);
 }
@@ -38,16 +33,17 @@ p {
 }
 
 .social-link:hover {
-  /* color: #ea3786; */
-  color: #1D3B58
+  color: #63A88F;
 }
 
 .btn {
-  background-color: #1D3B58;
+  /* background-color: #1D3B58; */
+  background-color: #63A88F;
 }
 
 .btn:hover {
-  background-color: #0A4C86;
+  /* background-color: #0A4C86; */
+  background-color: #81DBBA;
 }
 
 @media (prefers-color-scheme: dark) { 
