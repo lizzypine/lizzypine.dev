@@ -16,29 +16,25 @@ import { RiBootstrapFill } from "react-icons/ri"
 export default function About() {
   return (
     <motion.div 
-      className="overlay flex flex-wrap m-5 p-8 max-w-3xl bg-white border border-gray-200 rounded-lg shadow dark:border-gray-700"
+      className="overlay m-5 p-8 max-w-3xl bg-white border border-gray-200 rounded-lg shadow dark:border-gray-700"
       initial={{ opacity: 0, y: 80 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ type: "easeIn", duration: .4, delay: 0.3}}
     >
-      {/* <div class=""> */}
       <div class="w-1/2 flex-none">
-      <motion.div
-            // initial={{ opacity: 0 }}
-            // animate={{ opacity: 1, transition: { delay: 1.5, duration: 1.5 } }}
-        >
-            <Image 
-              src={palmLeaf} 
-              alt="Palm leaf"
-              style={{
-                display: 'flex',
-                alignItems: 'center',
-                width: '70%',
-                height: 'auto',
-                translate: '10% 15%',
-              }}
-            />
-          </motion.div>
+        <div>
+          <Image 
+            src={palmLeaf} 
+            alt="Palm leaf"
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              width: '70%',
+              height: 'auto',
+              translate: '10% 15%',
+            }}
+          />
+        </div>
       </div>
       <div class="w-1/2 flex-none">
         <h5 className="mb-5 text-3xl font-bold tracking-tight text-gray-900">Hi! My name is Lizzy. I am a software developer based in Kona, Hawaiʻi.</h5> 
