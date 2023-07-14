@@ -2,6 +2,7 @@ import { AiFillGithub } from "react-icons/ai"
 import { AiFillLinkedin } from "react-icons/ai"
 import { RiReactjsFill } from "react-icons/ri"
 import { SiNextdotjs } from "react-icons/si"
+import { SiTailwindcss } from "react-icons/si"
 
 export default function Footer() {
 
@@ -9,7 +10,7 @@ export default function Footer() {
 
   return(
     <footer className="font-light text-center m-2">
-      <hr class="border-gray-500 sm:mx-auto dark:border-gray-700 lg:my-4" />
+      <hr class="border-gray-500 sm:mx-auto dark:border-gray-700 my-4" />
       <div className="grid grid-cols-2 gap-6">
         <div className="text-left">
           Connect with me
@@ -28,8 +29,9 @@ export default function Footer() {
           </a>
         </div>
         <div className="flex justify-center sm:justify-end gap-8 sm:gap-3 md:gap-4">
-          <RiReactjsFill size="2.5em" />
-          <SiNextdotjs size="2.5em" />
+          <RiReactjsFill size="1.4em" />
+          <SiNextdotjs size="1.4em" />
+          <SiTailwindcss size="1.4em" />
         </div>
       </div>
       <div className="grid grid-cols-2 gap-6 mt-3">
