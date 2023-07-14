@@ -3,7 +3,6 @@ import { motion } from "framer-motion"
 import { AiFillGithub } from "react-icons/ai"
 import { AiFillLinkedin } from "react-icons/ai"
 import Image from 'next/image'
-import palmLeaf from "../../public/palm-leaf.png"
 import montserrat from "../../public/montserrat.png"
 
 export default function Header() {
@@ -26,8 +25,8 @@ export default function Header() {
     visible: {
       opacity: 1, 
       transition: {
-        delay: 0.9,
-        staggerChildren: 0.08,
+        delay: 0.5,
+        staggerChildren: 0.05,
       },
     },
   }
@@ -52,7 +51,7 @@ export default function Header() {
     <header className="banner h-screen flex items-center justify-center">
       <motion.div className="flex flex-col items-center "
         initial={{ y: -90 }}
-        animate={{ y: 0, transition: { delay: 1.5, duration: 1 } }}
+        animate={{ y: 0, transition: { delay: 1.3, duration: .4 } }}
       >
         <motion.div
             initial={{ opacity: 0 }}
@@ -103,7 +102,7 @@ export default function Header() {
          <div className="mt-6 flex items-center justify-center gap-x-6">
           <motion.div
             initial={{ x: -500, opacity: 0 }}
-            animate={{ x: 0, opacity: 1, transition: { delay: 2.3 } }}
+            animate={{ x: 0, opacity: 1, transition: { delay: 1.8 } }}
             whileHover={{
               scale: 1.2,
               transition: 0.2
@@ -116,7 +115,7 @@ export default function Header() {
           </motion.div>
           <motion.div
             initial={{ x: 200, opacity: 0 }}
-            animate={{ x: 0, opacity: 1, transition: { delay: 2.3 } }}
+            animate={{ x: 0, opacity: 1, transition: { delay: 1.8 } }}
             whileHover={{
               scale: 1.2,
               transition: 0.2

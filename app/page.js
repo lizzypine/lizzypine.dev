@@ -1,5 +1,6 @@
 import Header from "./components/Header.js"
 import Heading from "./components/Heading.js"
+import About from "./components/About.js"
 import Card from "./components/Card.js"
 import Footer from "./components/Footer.js"
 import konaSwimHubPic from "../public/kona-swim-hub.png"
@@ -11,6 +12,10 @@ export default function Page() {
   return (
     <main className="flex min-h-screen flex-col items-center">
       <Header />
+      <section id="about">
+        <Heading heading="About" />
+        <About />
+      </section>
       <section id="work">
         <Heading heading="Featured Work" />
         <div className="mt-8">
