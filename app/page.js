@@ -12,11 +12,11 @@ export default function Page() {
   return (
     <main className="flex min-h-screen flex-col items-center">
       <Header />
-      <section id="about">
+      <section id="about" className="my-8">
         <Heading heading="About" />
         <About />
       </section>
-      <section id="work">
+      <section id="work" className="my-10">
         <Heading heading="Featured Work" />
         <div className="mt-8">
           <Card 
