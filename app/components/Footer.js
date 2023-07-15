@@ -20,18 +20,18 @@ export default function Footer() {
         </div>
       </div>
       <div className="grid grid-cols-2 gap-6 mt-3">
-        <div className="flex justify-center sm:justify-start gap-8 sm:gap-3 md:gap-4">
+        <div className="flex justify-start sm:justify-start gap-4 sm:gap-3 md:gap-4">
           <a href="https://github.com/lizzypine" className="social-link" target="_blank" rel="noopener noreferrer">
-            <AiFillGithub size="2.5em" />
+            <AiFillGithub size="2em" />
           </a>
           <a href="https://www.linkedin.com/in/lizzypine/" className="social-link" target="_blank" rel="noopener noreferrer">
-            <AiFillLinkedin size="2.5em" />
+            <AiFillLinkedin size="2em" />
           </a>
         </div>
-        <div className="flex justify-center sm:justify-end gap-8 sm:gap-3 md:gap-4">
-          <RiReactjsFill size="1.4em" />
-          <SiNextdotjs size="1.4em" />
-          <SiTailwindcss size="1.4em" />
+        <div className="flex justify-end sm:justify-end gap-4 sm:gap-3 md:gap-4">
+          <RiReactjsFill size="2em" />
+          <SiNextdotjs size="2em" />
+          <SiTailwindcss size="2em" />
         </div>
       </div>
       <div className="grid grid-cols-2 gap-6 mt-3">
@@ -39,7 +39,7 @@ export default function Footer() {
         © {currentYear} Lizzy Pine
         </div>
         <div className="text-right">
-          Illustrations by Krit Kongjundee from <a href="https://vecteezy.com" target="_blank" rel="noopener noreferrer" className="underline">vecteezy.com</a> 
+         <p>Illustrations by Krit Kongjundee from <a href="https://vecteezy.com" target="_blank" rel="noopener noreferrer" className="underline">vecteezy.com</a></p> 
         </div>
       </div>
     </footer>
