@@ -37,12 +37,10 @@ p {
 }
 
 .btn {
-  /* background-color: #1D3B58; */
   background-color: #003459;
 }
 
 .btn:hover {
-  /* background-color: #0A4C86; */
   background-color: #003b66 ;
 }
 
@@ -52,12 +50,4 @@ p {
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 158, 222, 198;
   }
-
-  /* h1, h2 {
-    color: white;
-  }
-
-  p {
-    color: whitesmoke;
-  } */
 }

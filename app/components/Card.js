@@ -27,7 +27,7 @@ export default function Card(props) {
         <div className="flex mt-4 space-x-3 md:mt-6">
           <motion.a 
             href={props.liveLink} 
-            className="btn button-link inline-flex font-bold items-center px-3 py-2 text-sm text-center text-white bg-blue-700 rounded-lg focus:ring-4 focus:outline-none focus:ring-blue-300"
+            className="btn button-link inline-flex font-bold items-center px-3 py-2 text-sm text-center text-white bg-blue-700 rounded-lg focus:outline-none"
             whileHover={{
               scale: 1.1,
             }}
@@ -37,7 +37,7 @@ export default function Card(props) {
           </motion.a>
           <motion.a 
             href={props.repoLink} 
-            className="btn button-link inline-flex font-bold items-center px-3 py-2 text-sm text-center text-white bg-blue-700 rounded-lg focus:ring-4 focus:outline-none focus:ring-blue-300"
+            className="btn button-link inline-flex font-bold items-center px-3 py-2 text-sm text-center text-white bg-blue-700 rounded-lg focus:outline-none"
             whileHover={{
               scale: 1.1,
             }}
