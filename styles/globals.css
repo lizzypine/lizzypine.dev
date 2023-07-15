@@ -33,17 +33,17 @@ p {
 }
 
 .social-link:hover {
-  color: #63A88F;
+  color: #003b66;
 }
 
 .btn {
   /* background-color: #1D3B58; */
-  background-color: #63A88F;
+  background-color: #003459;
 }
 
 .btn:hover {
   /* background-color: #0A4C86; */
-  background-color: #81DBBA;
+  background-color: #003b66 ;
 }
 
 @media (prefers-color-scheme: dark) { 
