@@ -39,7 +39,7 @@ export default function Footer() {
         © {currentYear} Lizzy Pine
         </div>
         <div className="text-right">
-         <p>Illustrations by Krit Kongjundee from <a href="https://vecteezy.com" target="_blank" rel="noopener noreferrer" className="underline">vecteezy.com</a></p> 
+         <p>Illustrations by Krit Kongjundee from <a href="https://vecteezy.com" target="_blank" rel="noopener noreferrer" className="underline">vecteezy.com!</a></p> 
         </div>
       </div>
     </footer>
