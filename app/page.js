@@ -16,7 +16,7 @@ export default function Page() {
         {/* <Heading heading="About" /> */}
         {/* <About /> */}
       {/* </section> */}
-      <section id="work" className="my-10">
+      <section id="work" className="mt-10">
         <Heading heading="Featured Work" />
         <div className="mt-8">
           <Card 
