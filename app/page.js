@@ -10,12 +10,12 @@ import kaiDentalPic from "../public/kai-dental.png"
 
 export default function Page() {
   return (
-    <main className="flex min-h-screen flex-col items-center">
+    <main className="min-h-screen flex flex-col items-center">
       <Header />
-      {/* <section id="about" className="my-8"> */}
-        {/* <Heading heading="About" /> */}
-        {/* <About /> */}
-      {/* </section> */}
+      {/* <section id="about" className="my-8 flex">
+        <Heading heading="About" />
+        <About />
+      </section> */}
       <section id="work" className="mt-10">
         <Heading heading="Featured Work" />
         <div className="mt-8">
