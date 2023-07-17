@@ -8,7 +8,7 @@ export default function Card(props) {
       className="overlay m-5 max-w-3xl bg-white border border-gray-200 rounded-lg shadow dark:border-gray-700"
       initial={{ opacity: 0, y: 80 }}
       whileInView={{ opacity: 1, y: 0 }}
-      transition={{ type: "easeIn", duration: .4, delay: 0.3}}
+      transition={{ type: "easeIn", duration: .4, delay: .1}}
     >
       <div className="flex flex-col items-center mt-4">
         <Image 
