@@ -32,6 +32,7 @@ export default function Card(props) {
               scale: 1.1,
             }}
             whileTap={{ scale: 0.8 }}
+            aria-label="Visit Live Site"
             >
               Live Site
           </motion.a>
@@ -42,6 +43,7 @@ export default function Card(props) {
               scale: 1.1,
             }}
             whileTap={{ scale: 0.8 }}
+            aria-label="View Project Repository"
             >
               Project Repo
           </motion.a>
