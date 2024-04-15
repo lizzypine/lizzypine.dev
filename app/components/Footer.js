@@ -1,8 +1,6 @@
-import { AiFillGithub } from "react-icons/ai"
-import { AiFillLinkedin } from "react-icons/ai"
-import { RiReactjsFill } from "react-icons/ri"
-import { SiNextdotjs } from "react-icons/si"
-import { SiTailwindcss } from "react-icons/si"
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import { RiReactjsFill } from "react-icons/ri";
+import { SiNextdotjs, SiTailwindcss } from "react-icons/si";
 
 export default function Footer() {
 
@@ -10,15 +8,15 @@ export default function Footer() {
 
   return(
     <footer className="font-light text-center mx-8 my-2">
-      <hr class="border-gray-500 sm:mx-auto dark:border-gray-700 my-4" />
-      <div className="grid grid-cols-2 gap-6">
+      <hr className="border-gray-500 sm:mx-auto dark:border-gray-700 my-4" />
+      <nav className="grid grid-cols-2 gap-6">
         <div className="text-left">
           Connect with me
         </div>
         <div className="text-right">
           Site built with
         </div>
-      </div>
+      </nav>
       <div className="grid grid-cols-2 gap-6 mt-3">
         <div className="flex justify-start sm:justify-start gap-4 sm:gap-3 md:gap-4">
           <a href="https://github.com/lizzypine" className="social-link" target="_blank" rel="noopener noreferrer">
