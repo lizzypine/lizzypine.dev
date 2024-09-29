@@ -25,28 +25,39 @@ export default function Card(props) {
         <p className="mb-3 font-normal dark:text-gray-900">{props.body}</p>
         <h6 className="mb-3 font-bold dark:text-gray-900">Technologies: {props.technologies}</h6>
         <div className="flex mt-4 space-x-3 md:mt-6">
-          <motion.a 
-            href={props.liveLink} 
-            className="btn button-link inline-flex font-bold items-center px-3 py-2 text-sm text-center text-white bg-blue-700 rounded-lg focus:outline-none"
-            whileHover={{
-              scale: 1.1,
-            }}
-            whileTap={{ scale: 0.8 }}
-            aria-label="Visit Live Site"
+          {props.liveLink ? (
+            <motion.a 
+              href={props.liveLink} 
+              className="btn button-link inline-flex font-bold items-center px-3 py-2 text-sm text-center text-white bg-blue-700 rounded-lg focus:outline-none"
+              whileHover={{
+                scale: 1.1,
+              }}
+              whileTap={{ scale: 0.8 }}
+              aria-label="Visit Live Site"
             >
               Live Site
-          </motion.a>
-          <motion.a 
-            href={props.repoLink} 
-            className="btn button-link inline-flex font-bold items-center px-3 py-2 text-sm text-center text-white bg-blue-700 rounded-lg focus:outline-none"
-            whileHover={{
-              scale: 1.1,
-            }}
-            whileTap={{ scale: 0.8 }}
-            aria-label="View Project Repository"
+            </motion.a>
+          ) : (
+            <motion.button
+              className="button-link inline-flex font-bold items-center px-3 py-2 text-sm text-center text-gray-500 bg-gray-400 disabled rounded-lg cursor-not-allowed"
+              disabled
+            >
+              Live Site
+            </motion.button>
+          )}
+          {props.repoLink && (
+            <motion.a 
+              href={props.repoLink} 
+              className="btn button-link inline-flex font-bold items-center px-3 py-2 text-sm text-center text-white bg-blue-700 rounded-lg focus:outline-none"
+              whileHover={{
+                scale: 1.1,
+              }}
+              whileTap={{ scale: 0.8 }}
+              aria-label="View Project Repository"
             >
               Project Repo
-          </motion.a>
+            </motion.a>
+          )}
         </div>
       </div>
     </motion.div>
