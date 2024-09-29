@@ -29,7 +29,6 @@ export default function Page() {
             imgAlt="Screenshot of Kuleanacollege.com homepage"
             body="Redesigned static site into a single-page application for a learning platform."
             technologies="React, Redux, RTK Query, React Router, React Framer Motion, Jest, Mock Service Workers"
-            liveLink="https://build.kuleanacollege.com"
             repoLink="https://github.com/lizzypine/kuleana-college" 
           />
           <Card 
@@ -47,8 +46,7 @@ export default function Page() {
             imgAlt="Screenshot of Kaidental.com homepage"
             body="Website for a private dental office."
             technologies="Wordpress, PHP, MySQL"
-            liveLink="https://build.kuleanacollege.com"
-            repoLink="https://github.com/lizzypine/kuleana-college" 
+            liveLink="https://kaidentalmaui.com"
           />
         </div>
       </section>
