@@ -34,10 +34,10 @@ export default function Page() {
           <Card
             title="Advanced Education in General Dentistry Program"
             imgSrc={hiDentalResidencyPic}
-            imgAlt="Screenshot of https://hawaiidentalresidency.com/.com homepage"
+            imgAlt="Screenshot of https://hawaiidentalresidency.com/ homepage"
             body="Website for a dental residency program"
             technologies="Wordpress, PHP, MySQL"
-            liveLink="https://hawaiidentalresidency.com/.com"
+            liveLink="https://hawaiidentalresidency.com/"
           />
         </div>
       </section>
