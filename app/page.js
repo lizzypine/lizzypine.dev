@@ -23,21 +23,20 @@ export default function Page() {
             repoLink="https://github.com/lizzypine/kona-swim-hub"
           />
           <Card
-            title="Predict-a-Buy"
-            imgSrc={predictABuyPic}
-            imgAlt="Screenshot of Predict-a-Buy smart shopping list"
-            body="Smart shopping list web application that learns users' buying habits and recommends items on their future shopping trips. Worked on a remote agile team with three other developers and collaborated on GitHub. Wrote code reviews, submitted pull requests, and pair programmed."
-            technologies="React.js, Firebase, Sass"
-            liveLink="https://tcl-61-smart-shopping-list.web.app/list"
-            repoLink="https://github.com/lizzypine/predict-a-buy"
-          />
-          <Card
             title="Advanced Education in General Dentistry Program"
             imgSrc={hiDentalResidencyPic}
             imgAlt="Screenshot of https://hawaiidentalresidency.com/ homepage"
             body="Website for a dental residency program"
             technologies="Wordpress, PHP, MySQL"
             liveLink="https://hawaiidentalresidency.com/"
+          />
+          <Card
+            title="Predict-a-Buy"
+            imgSrc={predictABuyPic}
+            imgAlt="Screenshot of Predict-a-Buy smart shopping list"
+            body="Smart shopping list web application that learns users' buying habits and recommends items on their future shopping trips. Worked on a remote agile team with three other developers and collaborated on GitHub. Wrote code reviews, submitted pull requests, and pair programmed."
+            technologies="React.js, Firebase, Sass"
+            repoLink="https://github.com/lizzypine/predict-a-buy"
           />
         </div>
       </section>
